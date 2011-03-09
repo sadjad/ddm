@@ -8,7 +8,7 @@ def state_function(state):
         print "failed"
         
 
-my_request = Request();
+my_request = Request()
 my_request.set_request_URL("http://sadjad.me/media/Yadegari/08%20Bi%20To%20(Remix).mp3")
 my_request.set_range(5000000)
 print my_request.get_range()
